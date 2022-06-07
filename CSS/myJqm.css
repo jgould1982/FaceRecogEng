@@ -1,0 +1,134 @@
+div.jqDrag {cursor: move;}
+
+div.jqmNotice {
+    display: none;
+    position: relative;
+    overflow:auto;
+    width: 540px;
+    height: 480px;
+    background:#EEE; 
+    background-image: url('images/note_icon.png') 5px 5px no-repeat;
+    border: 1px solid #000;
+    padding: 0;
+    z-index: 100;
+}
+
+div.jqmdTC { 
+	background: #d5ff84 url(../images/sprite.gif) repeat-x 0px -82px; 
+	color: #528c00;
+	padding: 7px 22px 5px 5px;
+	font-family:tahoma,helvetica;
+	font-size:12px;
+	font-weight: bold;
+}
+div.jqmdTL { background:  url(../images/sprite.gif) no-repeat 0px -41px; padding-left: 3px;}
+div.jqmdTR { background: url(../images/sprite.gif) no-repeat right 0px; padding-right: 3px;}
+
+div.jqmNotice .jqmClose {
+  position: absolute;
+  cursor: pointer;
+  right: 4px;
+  top: 6px;
+}
+
+.jqmnContent{
+  border-top:1px;
+  color:#000;
+  font:10px/14pt verdana,tahoma,helvetica;
+  padding:0 20px 5px;
+}
+
+label.jqmRequired {
+  color:Red; 
+}
+
+h2 {
+  color:Maroon; 
+  font:13pt verdana,tahoma,helvetica;
+  text-align:left;
+}
+
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#D3D3D3;
+  display:none;
+}
+  
+#boxes .window {
+  position:fixed;
+  left:0;
+  top:0;
+  width:auto;
+  height:auto;
+  display:none;
+  z-index:9999;
+  padding:20px;
+}
+ 
+#boxes #dialogSelectDoc {
+  width:auto; 
+  height:auto;
+  padding:10px;
+  background-color:#ffffff;
+  font:8pt verdana,tahoma,helvetica;
+}
+
+#boxes #dialogSearchClient {
+  width:auto; 
+  height:auto;
+  padding:10px;
+  background-color:#ffffff;
+  font:8pt verdana,tahoma,helvetica;
+}
+
+#boxes #dialogSearchDocClient {
+  width:auto; 
+  height:auto;
+  padding:10px;
+  background-color:#ffffff;
+  font:8pt verdana,tahoma,helvetica;
+}
+
+ 
+#boxes #dialogSearchStaff {
+  width:auto; 
+  height:auto;
+  padding:10px;
+  background-color:#ffffff;
+  font:8pt verdana,tahoma,helvetica;
+}
+
+#boxes #dialogSearchProject {
+  width:auto; 
+  height:auto;
+  padding:10px;
+  background-color:#ffffff;
+  font:8pt verdana,tahoma,helvetica;
+}
+
+#boxes #dialogSearchProjectStatus {
+    width:auto; 
+    height:auto;
+    padding:10px;
+    background-color:#ffffff;
+    font:8pt verdana,tahoma,helvetica;
+}
+
+#boxes #dialogSearchWIP {
+  width:auto; 
+  height:auto;
+  padding:10px;
+  background-color:#ffffff;
+  font:8pt verdana,tahoma,helvetica;
+}
+
+#boxes #dialogSearchDocStaff {
+  width:auto; 
+  height:auto;
+  padding:10px;
+  background-color:#ffffff;
+  font:8pt verdana,tahoma,helvetica;
+}

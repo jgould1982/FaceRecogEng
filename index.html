@@ -1,0 +1,63 @@
+<html>
+<head>
+    <title>F.A.S.T(Facial-Automated Secured Tasks) Administration</title>
+    <link href="css/default.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <style type="text/css">
+    </style>
+
+    <link rel="icon" href="images/favicon-32.png" />
+
+</head>
+<body style="font-size: 75%;" ">
+<br></br>
+    &nbsp;&nbsp;&nbsp;<img _ngcontent-uby-c82="" margin="20px" height="35px" id="hdrNavWKLogo" alt="Wolters Kluwer Logo " src="images/favicon-32.png" /></a>
+<br></br>
+
+    <div class="w3-bar w3-blue">
+        <div class="w3-bar-item">
+    </div>
+
+    </div>
+    <form action="submit">
+<table>
+<tr>
+<td>
+<div align="left" style="padding-left: 25px;" >
+<h1  padding-left="20px" >Facial Authentication Submission Form</h1>
+Subject's Email Address:
+<br></br>
+<input  type="text" name="UserEmail" size=55 maxlength=55 value="">
+<br></br>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div id="drop-area">
+  <form class="my-form">
+    <p>Upload multiple files with the file dialog or by dragging and dropping images onto the dashed region.</p>
+	<p>Upload 5 forward-facing and 3 profile .jpg images for the subject identified with the email above.</p>
+    <input type="file" id="fileElem" multiple accept="image/*" onchange="handleFiles(this.files)">
+    <label class="button" for="fileElem">Upload images...</label>
+	<div id="gallery"></div>
+	<progress id="progress-bar" max=100 value=0></progress>
+
+	
+</div>
+
+</td>
+<td style = "border: 1px solid black;border-radius: 25px;">
+<p> Modeling instructions for pictures... still to come.</p>
+</td>
+</tr>
+<tr>
+<td>
+<div><input type=submit value="Submit form" style="margin-left: 25px;" ></div>
+  </form>
+</tr></td>
+</table>
+</form>
+<script src="js/DragDrop.js"></script>
+</body>
+</html>
